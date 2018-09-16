@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> DemoDay </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <nav class="">
+        <div id="menu">
+            <a href="#projeto" onclick="go( `#projeto` ); return false" class="link"> O Projeto </a>
+            <a href="#plataforma" onclick="go( `#plataforma` ); return false" class="link"> A Plataforma </a>
+            <a href="#equipe" onclick="go( `#equipe` ); return false" class="link"> Quem Somos </a>
+            <div id="login-cadastro">
+                <a href="" class="link login" id="botaologin"> Login </a>
+                <a href="#cadastro" onclick="go( `#cadastro` ); return false" class="link cadastre-se" id="botaocadastro"> Cadastre-se </a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="banner">
+        <p>
+            Conheça o [nome do projeto]: você está pronto para investir?
+        </p>
+    </section>
+
+    <section id=voce-sabia>
+        <h2> Você Sabia?</h2>
+        <div id="dados">
+            <div>
+                <img src="./img/icone1.svg" alt="" id="duvida">
+                    <p> Mais de X% dos estudantes que saem do Ensino Médio não sabendo sobre educação financeira</p>
+            </div>
+            
+            <div>
+                <img src="./img/icone1.svg" alt="" id="duvida">
+                <p> Mais de X% dos estudantes que saem do Ensino Médio não sabendo sobre educação financeira</p>
+            </div>
+                
+            <div>
+                <img src="./img/icone1.svg" alt="" id="duvida">
+                <p> Mais de X% dos estudantes que saem do Ensino Médio não sabendo sobre educação financeira</p>
+            </div>
+        </div> 
+    </section>
+
+    <section id="projeto">
+        <div>
+            <h2>Sobre o Projeto</h2>
+            <p>[nome do projeto] foi criado para ensinar jovens sobre educação financeira, conhecimento essencial
+                    para uma vida independente. Por meio de uma metodologia que integram a teoria e prática, o aprendizado
+                    fica muito mais fácil e divertido.
+            </p>
+        </div>
+        <img src="./img/plataforma1.png" alt="">
+    </section>
+
+    <section id="plataforma">
+        <h2>A Plataforma</h2>
+        <div class="beneficios">
+            <img src="./img/atividades.svg" alt="">
+            <div>
+                <h3>Módulos e atividades</h3>
+                <p>Estude por meio de módulos e atividade que condensam teoria e prática de forma fácil!</p>
+            </div>
+        </div>
+        
+        <div class="beneficios">
+            <img src="./img/objetivos.svg" alt="">
+            <div>
+                <h3>Level Up!</h3>
+                <p>Ao realizar as atividades e atingir objetivos, evolua e suba níveis</p>
+            </div>
+        </div>
+
+        <div class="beneficios">
+            <img src="./img/invista.svg" alt="">
+            <div>
+                <h3>Invista seu dinheiro!</h3>
+                <p>Não fique só na teoria! Aplique o que aprendeu investindo em nossas empresas!</p>
+            </div>
+        </div>
+
+        <div class="beneficios">
+            <img src="./img/amigos.svg" alt="">
+            <div>
+                <h3>Adicione amigos!</h3>
+                <p>Você e seus amigos podem embarcar e evoluir nessa jornada juntos!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="equipe">
+        <div>
+            <h2> A Equipe </h2>
+            <p> Somos um grupo de 4 mulheres, que recebeu um imensa oportunidade da Mastertech e do Facebook
+                para aprender de forma gratuita e com qualidade programação. Visando mudar a realidade dos jovens brasileiros,
+                desenvolvemos essa plataforma para oferecer conteúdo de qualidade sobre educação financeira, conhecimento
+                que não é aprofundado nas escolas. Então, agarrem isso e aproveitem!
+            </p>
+        </div>
+        <img src="./img/equipe.svg" alt="">
+    </section>
+
+    <section id="cadastro">
+        <h2>Interessado?</h2>
+        <p> Faça seu cadastro e bons estudos!</p>
+        <form>
+            <input type="text" placeholder="nome completo" name="nome">
+            <input type="text" placeholder="usuário" name="usuário">
+            <input type="text" placeholder="email" name="email">
+            <input type="password" placeholder="senha" name="senha">
+            <input type="password" placeholder="confirme a senha" name="confirma-senha">
+                        
+            <button>Cadastrar</button>
+        </form>
+    </section>
+
+    <section id="menu-contato">
+        <div id="menu-footer">
+            <h4>Nome do Projeto</h4>
+            <a href="#projeto" onclick="go( `#projeto` ); return false" class="link"> O Projeto </a>
+            <a href="#plataforma" onclick="go( `#plataforma` ); return false" class="link"> A Plataforma </a>
+            <a href="#equipe" onclick="go( `#equipe` ); return false" class="link"> Quem Somos </a>
+            <a href="#cadastro" onclick="go( `#cadastro` ); return false" class="link"> Cadastre-se </a>
+        </div>
+
+        <div id="contato">
+            <h4>Contato</h4>
+            <a href="https://www.google.com/intl/pt/gmail/about/#">
+                <div id="email">
+                    <img src="./img/email.svg" alt="">
+                    <p>nomedoprojeto@contato.com</p>
+                </div>
+            </a>
+
+            <a href="https://www.facebook.com/">
+                <div id="facebook">
+                    <img src="./img/facebook.svg" alt="">
+                    <p>/nomedoprojeto</p>
+                </div>
+            </a>
+
+            <a href="https://www.instagram.com/?hl=pt-br">
+                <div id="instagram">
+                    <img src="./img/instagram.svg" alt="">
+                    <p>@nomedoprojeto</p>
+                </div>
+            </a>
+
+            <a href="https://twitter.com/?lang=pt-br">
+                <div id="twitter">
+                    <img src="./img/twitter.svg" alt="">
+                    <p>@nomedoprojeto</p>
+                </div>
+            </a>
+            
+        </div>
+
+    </section>
+
+    <footer>
+        <div>
+            <p>@Copyright 2018</p>
+        </div>
+    </footer>
+
+</body>
+</html>

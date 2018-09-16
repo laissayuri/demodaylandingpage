@@ -1,0 +1,290 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    max-width: 100vw;
+}
+
+h2{
+    font-size: 30pt;
+}
+
+h3{
+    font-size: 20pt;
+    margin-top:0; 
+}
+
+h4{
+    font-size: 15pt;
+}
+
+p{
+    font-size: 15pt;
+    line-height: 1.5;
+}
+
+nav{
+    width: 100vw;
+    padding: 20px;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    transition: 0.3s;
+}
+
+.scroll{
+    padding: 20px;
+    background-color: #650164;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+
+#menu{
+    padding: 0 50px;
+    color: white;
+    font-size: 13pt;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    padding: 13px;
+    font-weight: 600;
+}
+
+.link:hover{
+    transition: 0.3s;
+    color: #ffca2c;
+}
+
+#login-cadastro{
+    padding: 0 0 0 60px;
+}
+
+.login{
+    color: #ffca2c;
+    border-radius: 10px;
+    padding: 14px;
+    margin: 10px;
+}
+
+.cadastre-se{
+    border: 2px solid #ffca2c;
+    color: #ffca2c;
+    border-radius: 10px;
+    margin-right: 90px;
+}
+
+.login:hover{
+    color: white;
+    background-color: #ffca2c;
+}
+
+.cadastre-se:hover{
+    color: white;
+    background-color: #ffca2c;
+}
+
+#banner{
+    background-image: url("./img/banner.jpg");
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+#banner p{
+    display: flex;
+    width: 30%;
+    margin: 100px;
+    font-size: 30pt;
+    font-weight: bold;
+    color: white;
+}
+
+#voce-sabia, #projeto, #plataforma, #equipe, #cadastro, #menu-contato, footer{
+    padding: 50px 100px;
+}
+
+#voce-sabia{
+    display: flex;
+    flex-direction: column;
+}
+
+#dados{
+    display: flex;
+    flex-direction: row;
+}
+
+#dados h2{
+    width: 40vw;
+}
+
+#dados div{
+    padding: 50px;
+    text-align: center;
+}
+
+#dados img{
+    width: 10vw;
+}
+
+#dados p{
+    width: 20vw;
+}
+
+#projeto{
+    background-color: #fae195;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#projeto img{
+    width: 400px;
+    height: 230px;
+    margin: 0 0 0 50px;
+}
+
+.beneficios{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0;
+}
+
+.beneficios div{
+    margin: 0 0 0 50px;
+}
+
+.beneficios img{
+    width: 200px;
+    height: 200px;
+}
+
+#equipe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #945193;
+    color: white;
+}
+
+#equipe div{
+    width: 50vw;
+}
+
+#equipe img{
+    width: 500px;
+    height: 200px;
+}
+
+#cadastro form{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#cadastro form input{
+    width: 95%;
+    padding: 15px;
+    margin: 5px 0;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#cadastro form button{
+    display: flex;
+    border: 2px solid #650164;
+    color: #650164;
+    padding: 10px;
+    border-radius: 13px;
+    font-size: 13pt;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+#cadastro form button:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    color: white;
+    background-color: #650164;
+    padding: 10px;
+    border-radius: 13px;
+    font-size: 13pt;
+    font-weight: 600;
+}
+
+
+#menu-contato{
+    background-color: #650164;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+#menu-contato p{
+    font-size: 12pt;
+}
+
+#menu-footer{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+
+#menu-footer a{
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+#contato{
+    display: flex;
+    flex-direction: column;
+}
+
+#contato div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#contato p{
+    margin-left: 25px;
+}
+
+#contato img {
+    width: 25px;
+}
+
+#contato a{
+    text-decoration: none;
+    color: white;
+}
+
+#contato div:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    color: #ffca2c;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    background-color: #3f013e;
+    padding: 15px 100px;
+    color: white;
+}
+
+footer p{
+    font-size: 10pt;
+}
+
