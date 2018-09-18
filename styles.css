@@ -211,16 +211,23 @@ nav{
     margin: 5px 0;
 }
 
+#cadastro form button a{
+    text-decoration: none;
+    color: #650164;
+}
+
 #cadastro form button:hover{
     cursor: pointer;
     transition: 0.3s;
     display: flex;
-    color: white;
+    color: #ffca2c;
     background-color: #650164;
-    padding: 10px;
     border-radius: 13px;
     font-size: 13pt;
     font-weight: 600;
+}
+#cadastro form button a:hover{
+    color: #ffca2c;
 }
 
 
